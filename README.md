@@ -44,16 +44,25 @@ typescript-eslint
 
 ## ✨ Features of Book Cinemas:
 
-Feature	Description
+Feature	Description<br>
 1.Home Page	Displays trending or featured movies beautifully.
+
 2.Movie Details Page	Shows detailed movie information like synopsis, cast, showtimes.
+
 3.Search Functionality	Users can search movies easily by name or category.
+
 4.Login System	Authentication flow using React Context (basic user login).
+
 5.Booking System	Allows users to select showtime and book movie tickets.
+
 6.Responsive Design	Fully mobile-friendly using Tailwind CSS.
+
 7.Dynamic Routing	Navigation between pages using React Router v6.
+
 8.404 Not Found Page	Beautiful fallback page when route does not exist.
+
 9.Protected Pages (Optional enhancement)	Booking page could be protected for logged-in users only.
+
 10.Reusable Components	Navbar, Footer and other components are reused across page.
 
 ## 🎬 Future Enhancements Ideas (optional to mention):
@@ -65,44 +74,38 @@ Feature	Description
 
 ## 🛠️ Installation Instructions:
 1. Clone the repository
-```bash
-Copy
-Edit
+```
+
 git clone https://github.com/your-username/book-cinemas.git
 (replace your-username with your GitHub username.)
+```
+2. Navigate to the project directory
+```
 
-3. Navigate to the project directory
-```bash
-Copy
-Edit
 cd book-cinemas
+```
 4. Install all dependencies
-```bash
-Copy
-Edit
+```
+
 npm install
 (This installs React, Vite, TailwindCSS, TypeScript, etc.)
-
+```
 5. Start the development server
-```bash
-Copy
-Edit
+```
+
 npm run dev
 After running, you will see something like:
 
-arduino
-Copy
-Edit
+
 VITE v5.0  ready in 500ms
 ➜  Local:   http://localhost:5173/
 Open your browser and visit http://localhost:5173/ (or whatever port shown).
-
+```
 5. Build for production
 If you want to build the app for deployment:
 
-```bash
-Copy
-Edit
+```
+
 npm run build
 It will generate a dist/ folder with the production-ready code.
 
